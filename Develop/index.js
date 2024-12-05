@@ -12,7 +12,7 @@ const questions = [
         message: 'What is the title of your project?'
     },
     {
-        type: 'input',
+        type: 'text',
         name: 'description',
         message: 'Please provide a description and pourpose of your project.'
     },
