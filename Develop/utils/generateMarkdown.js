@@ -30,7 +30,7 @@ function renderLicenseLink(license) {
   } else if (license === 'Other') {
     return `https://opensource.org/licenses`
   } else if (license === 'None') {
-    return ``
+    return `##`
   }
 
 };
@@ -64,35 +64,37 @@ function generateMarkdown(data) {
     ${data.description}
 
    ## Table of Contents
-    * [Installation] (##Installation)
-    * [Usage] (##Usage)
-    * [License] (##License)
-    * [Credits] (##Credits)
-    * [Tests] (##Tests)
-    * [Questions] (##Questions)
-    * [Walkthrough] (##Walkthrough)
+   1. [Installation](#installation)
+   2. [Usage](#usage)
+   3. [License](#license)
+   4. [Credits](#credits)
+   5. [Tests](#tests)
+   6. [Questions](#questions)
+   7. [Walkthrough](#walkthrough)
   
-    ## Installation
+   ## Installation
     ${data.installation}
 
-    ## Usage
+   ## Usage
     ${data.usage}
 
-    ## License
+   ## License
     ${data.license}
     ${renderLicenseSection(data.license)}
+    ${renderLicenseLink(data.license)}
+    
 
-    ## Credits
+   ## Credits
     ${data.credits}
 
-    ## Tests
+   ## Tests
     ${data.test}
 
-    ## Questions
+   ## Questions
     Please email your questions to ${data.email}.
     You can visit my GitHub profile at (https://github.com/${data.creator}).
 
-    ## Walkthrough
+   ## Walkthrough
     Visit this link to view a walkthrough of the project: ${data.link}.
  `;
 
