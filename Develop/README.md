@@ -36,7 +36,7 @@
    You can visit my GitHub profile at [KevJr10](https://github.com/KevJr10).
 
    ## Walkthrough
-   Visit this link to view a walkthrough of the project: N/A.
+   Visit this link to view a walkthrough of the project: https://youtu.be/We3iuIUUwNM
 
 
 
