@@ -4,6 +4,7 @@ import inquirer from 'inquirer';
 import path from 'path';
 import generateMarkdown from './utils/generateMarkdown.js';
 
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -37,7 +38,7 @@ const questions = [
         message: 'Please provide examples on how to run tests.'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What type of license would you like to use?',
         choices: ['MIT','Apache', 'GPLv2','GPLv3','Other', 'None']

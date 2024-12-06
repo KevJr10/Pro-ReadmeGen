@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   if (license === 'MIT') {
     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
@@ -61,7 +62,7 @@ function generateMarkdown(data) {
 
   
    ## Description
-    ${data.description}
+  ${data.description}
 
    ## Table of Contents
    1. [Installation](#installation)
@@ -73,34 +74,41 @@ function generateMarkdown(data) {
    7. [Walkthrough](#walkthrough)
   
    ## Installation
-    ${data.installation}
+  ${data.installation}
 
    ## Usage
-    ${data.usage}
+  ${data.usage}
 
    ## License
-    ${data.license}
-    ${renderLicenseSection(data.license)}
-    ${renderLicenseLink(data.license)}
+  ${data.license}    
+  ${renderLicenseLink(data.license)}
     
 
    ## Credits
-    ${data.credits}
+  ${data.credits}
 
    ## Tests
-    ${data.test}
+  ${data.test}
 
    ## Questions
-    Please email your questions to ${data.email}.
-    You can visit my GitHub profile at (https://github.com/${data.creator}).
+   Please email your questions to ${data.email}.
+   You can visit my GitHub profile at [KevJr10](https://github.com/${data.creator}).
 
    ## Walkthrough
-    Visit this link to view a walkthrough of the project: ${data.link}.
+   Visit this link to view a walkthrough of the project: ${data.link}.
+
+
+
+
+
+
+
+  ${renderLicenseSection(data.license)}
  `;
 
 
 
 
-}
+};
 
 export default generateMarkdown;
