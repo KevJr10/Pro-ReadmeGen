@@ -1,9 +1,9 @@
 # Pro ReadMe Generator
-  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   
    ## Description
-  Is a project that was created using NodeJS and Inquirer that automatically generates professional ReadMe's for Projects. This idea was develop in order to create ReadMe files faster but always keeping it professional.
+  Is a project that was created using NodeJS and Inquirer (NPM Package) that automatically generates professional ReadMe's. This idea was developed in order to create ReadMe files faster but always keeping it professional.
 
    ## Table of Contents
    1. [Installation](#installation)
@@ -18,11 +18,11 @@
   We only need to download the files inside the repositiry and execute them with Node inside the terminal.
 
    ## Usage
-  Open terminal, go to the folder that has all the files, insert the following command: "node index.js" the code will promt questions regarding the ReadMe information, user needs to inpiut all this information as require . Once done, the app will create a new ReadMe.md  file  with  all the information that the user input.
+  Open terminal, go to the folder that has all the files, insert the following command: "node index.js" the code will promt questions regarding the ReadMe information, user needs to inpiut all this information as require . Once done, the app will create a new ReadMe.md file with all the information that the user input.
 
    ## License
-  GPLv3    
-  https://www.gnu.org/licenses/gpl-3.0
+  Apache    
+  https://opensource.org/licenses/Apache-2.0
     
 
    ## Credits
@@ -44,5 +44,5 @@
 
 
 
-  This project is licensed under the GPL v3 license.
+  This project is licensed under the Apache license.
  
