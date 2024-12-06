@@ -1,9 +1,9 @@
 # Pro ReadMe Generator
-  undefined
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
   
    ## Description
-    Is a project that was created using NodeJS and Inquirer that automatically generates professional ReadMe's for Projects. This idea was develop in order to create ReadMe files faster but always keeping it professional.
+  Is a project that was created using NodeJS and Inquirer that automatically generates professional ReadMe's for Projects. This idea was develop in order to create ReadMe files faster but always keeping it professional.
 
    ## Table of Contents
    1. [Installation](#installation)
@@ -15,27 +15,34 @@
    7. [Walkthrough](#walkthrough)
   
    ## Installation
-    We only need to download the files inside the repositiry and execute them with Node inside the terminal.
+  We only need to download the files inside the repositiry and execute them with Node inside the terminal.
 
    ## Usage
-    Open terminal, go to the folder that has all the files, insert the following command: "node index.js" the code will promt questions regarding the ReadMe information, user needs to inpiut all this information as require . Once done, the app will create a new ReadMe.md  file  with  all the information that the user input.
+  Open terminal, go to the folder that has all the files, insert the following command: "node index.js" the code will promt questions regarding the ReadMe information, user needs to inpiut all this information as require . Once done, the app will create a new ReadMe.md  file  with  all the information that the user input.
 
    ## License
-    
-    undefined
-    undefined
+  GPLv3    
+  https://www.gnu.org/licenses/gpl-3.0
     
 
    ## Credits
-    N/A
+  Abraham Soto (https://github.com/abrah-am)
 
    ## Tests
-    N/A
+  N/A
 
    ## Questions
-    Please email your questions to kevjr1096@outlook.com.
-    You can visit my GitHub profile at (https://github.com/KevJr10).
+   Please email your questions to Kevjr1096@outlook.com.
+   You can visit my GitHub profile at [KevJr10](https://github.com/KevJr10).
 
    ## Walkthrough
-    Visit this link to view a walkthrough of the project: N/A.
+   Visit this link to view a walkthrough of the project: N/A.
+
+
+
+
+
+
+
+  This project is licensed under the GPL v3 license.
  
